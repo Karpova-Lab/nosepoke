@@ -7,9 +7,9 @@ Build Instructions
 CAD Files
 =========
 
-- `PCB files <https://github.com/Karpova-Lab/nosepoke/tree/master/PCB%20files>`_  
+- `PCB files <https://github.com/Karpova-Lab/nosepoke/tree/master/PCB%20Files>`_  
 
-- `3D design files <https://github.com/Karpova-Lab/nosepoke/tree/master/3D%20desing%20files>`_  
+- `3D design files <https://github.com/Karpova-Lab/nosepoke/tree/master/3d%20CAD>`_  
 
 RJ45 Pinout
 ===========
