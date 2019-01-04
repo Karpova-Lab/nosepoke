@@ -1,0 +1,432 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Build Instructions &mdash; Nosepoke 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="Nosepoke 1.0 documentation" href="index.html"/>
+        <link rel="prev" title="Nosepoke Documentation" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Nosepoke
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Build Instructions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#cad-files">CAD Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#rj45-pinout">RJ45 Pinout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bill-of-materials">Bill of Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#assembly">Assembly</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#required-tools">Required Tools</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#instructions">Instructions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Nosepoke</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Build Instructions</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/nosepoke.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="build-instructions">
+<h1>Build Instructions<a class="headerlink" href="#build-instructions" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="cad-files">
+<h2>CAD Files<a class="headerlink" href="#cad-files" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/Karpova-Lab/nosepoke/tree/master/PCB%20files">PCB files</a></li>
+<li><a class="reference external" href="https://github.com/Karpova-Lab/nosepoke/tree/master/3D%20desing%20files">3D design files</a></li>
+</ul>
+</div>
+<div class="section" id="rj45-pinout">
+<h2>RJ45 Pinout<a class="headerlink" href="#rj45-pinout" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="18%" />
+<col width="50%" />
+<col width="32%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">RJ45
+Pin</th>
+<th class="head">Description</th>
+<th class="head">Direction</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>Nose Beam Break</td>
+<td>Output</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>White LED</td>
+<td>Input</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td>Ground</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>6</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>7</td>
+<td>3.3 Volts</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>8</td>
+<td>Lick Beam Break</td>
+<td>Output</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="bill-of-materials">
+<h2>Bill of Materials<a class="headerlink" href="#bill-of-materials" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/1_parts.jpg"><img alt="_images/1_parts.jpg" class="align-center" src="_images/1_parts.jpg" style="width: 2555.0px; height: 2227.0px;" /></a>
+<table border="1" class="docutils">
+<colgroup>
+<col width="4%" />
+<col width="23%" />
+<col width="5%" />
+<col width="58%" />
+<col width="11%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">QTY</th>
+<th class="head">Description</th>
+<th class="head">Price</th>
+<th class="head">Part Number</th>
+<th class="head">Supplier</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>Backside PCB</td>
+<td>2.3</td>
+<td><a class="reference external" href="https://oshpark.com/shared_projects/nqotsSjh">Nosepoke v 1.12</a></td>
+<td rowspan="2">OSH Park</td>
+</tr>
+<tr class="row-odd"><td>5</td>
+<td>Outer PCB</td>
+<td>3.25</td>
+<td><a class="reference external" href="https://oshpark.com/shared_projects/JIBPA1cP">Emitter/Detector v1.2</a></td>
+</tr>
+<tr class="row-even"><td>1</td>
+<td>1/8” Push-to-connect fitting</td>
+<td>2.81</td>
+<td><a class="reference external" href="https://www.mcmaster.com/7880t137">7880t137</a></td>
+<td rowspan="2">McMaster-Carr</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>5mm long M2.5 x .45 screw</td>
+<td>0.64</td>
+<td><a class="reference external" href="https://www.mcmaster.com/91290a100">91290A100</a></td>
+</tr>
+<tr class="row-even"><td>1</td>
+<td>NPN transistor</td>
+<td>0.31</td>
+<td><a class="reference external" href="https://www.digikey.com/products/en?keywords=fjx2222atfct">FJX2222ATFCT-ND</a></td>
+<td rowspan="5">Digi-Key</td>
+</tr>
+<tr class="row-odd"><td>1</td>
+<td>Verictal SMD RJ45 Jack</td>
+<td>1.33</td>
+<td><a class="reference external" href="https://www.digikey.com/products/en?keywords=WM3553CT-ND">WM3553CT-ND</a></td>
+</tr>
+<tr class="row-even"><td>1</td>
+<td>White LED</td>
+<td>0.72</td>
+<td><a class="reference external" href="https://www.digikey.com/products/en?keywords=1080-1593-1">1080-1593-1-ND</a></td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>IR Emitter</td>
+<td>0.38</td>
+<td><a class="reference external" href="https://www.digikey.com/products/en?keywords=1080-1357-1">1080-1357-1-ND</a></td>
+</tr>
+<tr class="row-even"><td>2</td>
+<td>Phototransistor</td>
+<td>0.4</td>
+<td><a class="reference external" href="https://www.digikey.com/products/en?keywords=1080-1386-1">1080-1386-1-ND</a></td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>5.6 kΩ Resistor (0805)</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>4</td>
+<td>82 Ω Resistor (0805)</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="assembly">
+<h2>Assembly<a class="headerlink" href="#assembly" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="required-tools">
+<h3>Required Tools<a class="headerlink" href="#required-tools" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>2mm hex key or  <a class="reference external" href="https://www.mcmaster.com/57585a53">screwdriver</a></li>
+<li>Soldering iron</li>
+</ul>
+</div>
+<div class="section" id="instructions">
+<h3>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">Solder components onto backside PCB</p>
+</li>
+<li><p class="first">Secure backside PCB to the back of the nosepoke using two M2.5 screws</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/2_add_PCB.jpg"><img alt="_images/2_add_PCB.jpg" class="align-center" src="_images/2_add_PCB.jpg" style="width: 1542.0px; height: 1435.0px;" /></a>
+</div></blockquote>
+</li>
+<li><dl class="first docutils">
+<dt>Solder components onto the outer PCBs</dt>
+<dd><ul class="first last simple">
+<li>One board with 82 Ω and white LED</li>
+<li>Two boards with 82 Ω and IR emitter LED</li>
+<li>Two boards with solder jumper closed and phototransistor</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Place the outer PCBs in the channels of the nosepoke. The IR emitters go on the left side, the light goes on top and the phototransistors go on the right side.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/pcb_placement.png"><img alt="_images/pcb_placement.png" class="align-center" src="_images/pcb_placement.png" style="width: 4414.0px; height: 3456.0px;" /></a>
+<a class="reference internal image-reference" href="_images/3_insert_sides.jpg"><img alt="_images/3_insert_sides.jpg" class="align-center" src="_images/3_insert_sides.jpg" style="width: 2133.0px; height: 1692.0px;" /></a>
+</div></blockquote>
+</li>
+<li><p class="first">Add solder at the joints of the PCBs to create both an electrical and mechanical connections.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/4_solder_joints.jpg"><img alt="_images/4_solder_joints.jpg" class="align-center" src="_images/4_solder_joints.jpg" style="width: 2000.0px; height: 1926.0px;" /></a>
+</div></blockquote>
+</li>
+<li><p class="first">Using a 2mm hex driver, screw in the push-to-connect fitting.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/5_secure_pushconnect.jpg"><img alt="_images/5_secure_pushconnect.jpg" class="align-center" src="_images/5_secure_pushconnect.jpg" style="width: 1653.0px; height: 1515.0px;" /></a>
+<a class="reference internal image-reference" href="_images/6_iso_view.jpg"><img alt="_images/6_iso_view.jpg" class="align-center" src="_images/6_iso_view.jpg" style="width: 2442.0px; height: 1952.0px;" /></a>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Nosepoke Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Andy Lustig.
+      Last updated on Jan 04, 2019.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
