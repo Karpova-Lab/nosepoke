@@ -24,26 +24,18 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="Nosepoke 1.0 documentation" href="#"/>
-        <link rel="next" title="Build Instructions" href="nosepoke.html"/> 
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Procurement" href="procure.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -90,7 +82,8 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="nosepoke.html">Build Instructions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="procure.html">Procurement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build.html">Build Instructions</a></li>
 </ul>
 
             
@@ -102,7 +95,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="#">Nosepoke</a>
@@ -110,10 +103,13 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
+
+
 
 
 
@@ -141,7 +137,10 @@
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+            
+              <!-- User defined GitHub URL -->
+              <a href="https://github.com/Karpova-Lab/nosepoke" class="fa fa-github"> Edit on GitHub</a>
+            
           
         
       </li>
@@ -156,9 +155,10 @@
             
   <div class="section" id="nosepoke-documentation">
 <h1>Nosepoke Documentation<a class="headerlink" href="#nosepoke-documentation" title="Permalink to this headline">¶</a></h1>
-<a class="reference internal image-reference" href="_images/iso.png"><img alt="_images/iso.png" class="align-center" src="_images/iso.png" style="width: 2423.0px; height: 1123.0px;" /></a>
-<p>This is the documentation for building a nosepoke for rat behavioral experiments.
-It has the following features:</p>
+<a class="reference internal image-reference" href="_images/iso.png"><img alt="_images/iso.png" class="align-center" src="_images/iso.png" style="width: 100%;" /></a>
+<p>This is the documentation for building a nosepoke for rat behavioral experiments.</p>
+<div class="section" id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Deep port for the rat to comfortably insert its nose</li>
 <li>Small shelf for liquid reward to accumulate instead of dripping</li>
@@ -167,23 +167,74 @@ It has the following features:</p>
 <li>Two infrared beam breaks for detecting nose insertion and licking</li>
 <li>Electronics that can be easily scaled to larger quantities (single sided PCB with surface mount parts)</li>
 <li>Zero exposed wires, all connections are integrated in the PCB or made with strong solder joints.</li>
+<li>All files are available on <a class="reference external" href=":github_url:https://github.com/Karpova-Lab/nosepoke">GitHub</a>  and can be modified to meet custom needs.</li>
 </ul>
+</div>
+<div class="section" id="rj45-pinout">
+<h2>RJ45 Pinout<a class="headerlink" href="#rj45-pinout" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="18%" />
+<col width="50%" />
+<col width="32%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">RJ45
+Pin</th>
+<th class="head">Description</th>
+<th class="head">Direction</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>Nose Beam Break</td>
+<td>Output</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>White LED</td>
+<td>Input</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td>Ground</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>6</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>7</td>
+<td>3.3 Volts</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>8</td>
+<td>Lick Beam Break</td>
+<td>Output</td>
+</tr>
+</tbody>
+</table>
 <p>This project was developed by Andy Lustig in the <a class="reference external" href="https://www.janelia.org/lab/karpova-lab">Karpova Lab</a> at Janelia Research Campus</p>
 <div class="toctree-wrapper compound">
 </div>
 </div>
+</div>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="nosepoke.html" class="btn btn-neutral float-right" title="Build Instructions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="procure.html" class="btn btn-neutral float-right" title="Procurement" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
     </div>
@@ -193,12 +244,12 @@ It has the following features:</p>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Andy Lustig.
-      Last updated on Jan 04, 2019.
+        &copy; Copyright 2018, Andy Lustig
+      Last updated on Jan 17, 2019.
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -213,35 +264,23 @@ It has the following features:</p>
 
   
 
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'1.0',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
 
   
 
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>
