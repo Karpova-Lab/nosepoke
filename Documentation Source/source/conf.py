@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Nosepoke'
-copyright = '2018, Andy Lustig'
+copyright = '2018-2019, Andy Lustig'
 author = 'Andy Lustig'
 
 # The short X.Y version
@@ -80,7 +80,10 @@ pygments_style = None
 import sphinx_rtd_theme
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
+html_theme_options = {
+    'display_version': False,
+    'prev_next_buttons_location': "both",
+}
 html_last_updated_fmt = '%b %d, %Y'
 
 # Theme options are theme-specific and customize the look and feel of a theme

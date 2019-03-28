@@ -2,9 +2,6 @@
 
 .. include:: isogrk1.txt
 
-Build Instructions
-++++++++++++++++++
-
 Assembly
 ========
 
@@ -23,6 +20,7 @@ Instructions
         :width: 100 %
 
 #. Solder components onto the perimeter PCBs
+
     - One board with 82\  |OHgr| and white LED 
     - Two boards with 82\  |OHgr| and IR emitter LED
     - Two boards with solder jumper closed and phototransistor
@@ -43,7 +41,7 @@ Instructions
         :align: center
         :width: 100 %
 
-#. Using a 2mm hex driver, screw in the push-to-connect fitting.
+#. Using a 2mm hex key or screwdriver, screw in the push-to-connect fitting.
 
     .. image:: pics/5_secure_pushconnect.jpg
         :align: center

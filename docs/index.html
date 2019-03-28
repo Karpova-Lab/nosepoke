@@ -54,13 +54,6 @@
           </a>
 
           
-            
-            
-              <div class="version">
-                1.0
-              </div>
-            
-          
 
           
 <div role="search">
@@ -83,7 +76,7 @@
             
               <ul>
 <li class="toctree-l1"><a class="reference internal" href="procure.html">Procurement</a></li>
-<li class="toctree-l1"><a class="reference internal" href="build.html">Build Instructions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build.html">Assembly</a></li>
 </ul>
 
             
@@ -148,6 +141,13 @@
   </ul>
 
   
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="procure.html" class="btn btn-neutral float-right" title="Procurement" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+  </div>
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -157,17 +157,39 @@
 <h1>Nosepoke Documentation<a class="headerlink" href="#nosepoke-documentation" title="Permalink to this headline">¶</a></h1>
 <a class="reference internal image-reference" href="_images/iso.png"><img alt="_images/iso.png" class="align-center" src="_images/iso.png" style="width: 100%;" /></a>
 <p>This is the documentation for building a nosepoke for rat behavioral experiments.</p>
-<div class="section" id="features">
-<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<p>This project was developed by Andy Lustig in the <a class="reference external" href="https://www.janelia.org/lab/karpova-lab">Karpova Lab</a> at Janelia Research Campus</p>
+<div class="section" id="highlights">
+<h2>Highlights<a class="headerlink" href="#highlights" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Deep port for the rat to comfortably insert its nose</li>
-<li>Small shelf for liquid reward to accumulate instead of dripping</li>
-<li>Push-to-connect tube fitting for easily connecting/disconnecting liquid reward source</li>
-<li>Overhead LED for lighting up the inside of the nosepoke</li>
+<li><strong>Useful interface with rat</strong><ul>
+<li>Controllable overhead LED for lighting up the inside of the nosepoke</li>
 <li>Two infrared beam breaks for detecting nose insertion and licking</li>
-<li>Electronics that can be easily scaled to larger quantities (single sided PCB with surface mount parts)</li>
-<li>Zero exposed wires, all connections are integrated in the PCB or made with strong solder joints.</li>
+<li>Deep opening for the rat to comfortably insert its nose</li>
+<li>Shelf for liquid reward to accumulate instead of dripping onto floor</li>
+</ul>
+</li>
+<li><strong>Robust and Manufacturable</strong><ul>
+<li>Designed to be machined out of hard plastic by a typical machine shop. Less durable version can be 3D printed.</li>
+<li>Zero exposed wires, all connections are integrated in the PCB or made with solder joints.<ul>
+<li>No connectors or screw terimal to become loose</li>
+<li>No wires to be chewed through</li>
+</ul>
+</li>
+<li>Electronics can be easily scaled to larger quantities<ul>
+<li>Single sided PCB with surface mount components is ideal for a PCB assembly service or manual assembly with a toaster oven/hot plate/heat gun.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Easy to install and maintain</strong><ul>
+<li>Designed to be press fit into 1.5” hole</li>
+<li>Backside push-to-connect tube fitting for easy connection/disconnection when replacing liquid reward tubing.</li>
+</ul>
+</li>
+<li><strong>Open Source</strong><ul>
 <li>All files are available on <a class="reference external" href=":github_url:https://github.com/Karpova-Lab/nosepoke">GitHub</a>  and can be modified to meet custom needs.</li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="section" id="rj45-pinout">
@@ -220,8 +242,26 @@ Pin</th>
 </tr>
 </tbody>
 </table>
-<p>This project was developed by Andy Lustig in the <a class="reference external" href="https://www.janelia.org/lab/karpova-lab">Karpova Lab</a> at Janelia Research Campus</p>
+</div>
+<div class="section" id="documenation-outline">
+<h2>Documenation Outline<a class="headerlink" href="#documenation-outline" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="procure.html">Procurement</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="procure.html#bill-of-materials">Bill of Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="procure.html#cad-files">CAD Files</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="procure.html#printed-circuit-board-pcb">Printed Circuit Board (PCB)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="procure.html#plastic-body">Plastic Body</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="build.html">Assembly</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="build.html#required-tools">Required Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build.html#instructions">Instructions</a></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -244,8 +284,8 @@ Pin</th>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Andy Lustig
-      Last updated on Jan 17, 2019.
+        &copy; Copyright 2018-2019, Andy Lustig
+      Last updated on Mar 28, 2019.
 
     </p>
   </div>
@@ -270,6 +310,7 @@ Pin</th>
         <script type="text/javascript" src="_static/jquery.js"></script>
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
     
 
   

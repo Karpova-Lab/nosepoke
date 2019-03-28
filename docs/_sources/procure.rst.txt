@@ -60,8 +60,8 @@ Printed Circuit Board (PCB)
 - Download `PCB design files <https://github.com/Karpova-Lab/nosepoke/tree/master/PCB%20Files>`_  
 
 
-Nosepoke
---------
+Plastic Body
+------------
 
 - View interactive model
 
