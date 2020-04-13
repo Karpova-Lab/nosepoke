@@ -1,7 +1,6 @@
 # Nosepoke
-![](Documentation%20Source/source/pics/push_to_connect_demo_downsample.gif)
-![](Documentation%20Source/source/pics/iso.png)
-## Full Documentation: [https://karpova-lab.github.io/nosepoke/](https://karpova-lab.github.io/nosepoke/)
+![](Documentation%20Source/source/pics/rendered_combo-01.png)
+Full Documentation here: [https://karpova-lab.github.io/nosepoke/](https://karpova-lab.github.io/nosepoke/)
 
 ## Hardware License
 
