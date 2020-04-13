@@ -1,0 +1,81 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5E1F7DFD
+P 4900 3600
+F 0 "D1" V 4800 3450 50  0000 C CNN
+F 1 "LED" V 4893 3436 50  0000 C CNN
+F 2 "asl_footprints:1206_reverse_smd" H 4900 3600 50  0001 C CNN
+F 3 "~" H 4900 3600 50  0001 C CNN
+	1    4900 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5E1F9446
+P 5550 3600
+F 0 "J1" H 5700 3350 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5700 3700 50  0000 R CNN
+F 2 "asl_footprints:board_to_board_joint" H 5550 3600 50  0001 C CNN
+F 3 "~" H 5550 3600 50  0001 C CNN
+	1    5550 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 3750 5350 3750
+Wire Wire Line
+	5350 3750 5350 3600
+Wire Wire Line
+	5350 3500 5350 3400
+Wire Wire Line
+	5350 3400 4900 3400
+Wire Wire Line
+	4900 3400 4900 3450
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5E1FD6F8
+P 4150 3900
+F 0 "TP3" H 4208 4018 50  0000 L CNN
+F 1 "IR Detector" H 4208 3927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4350 3900 50  0001 C CNN
+F 3 "~" H 4350 3900 50  0001 C CNN
+	1    4150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E1FD3D4
+P 4150 3650
+F 0 "TP2" H 4208 3768 50  0000 L CNN
+F 1 "IR Emitter" H 4208 3677 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4350 3650 50  0001 C CNN
+F 3 "~" H 4350 3650 50  0001 C CNN
+	1    4150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E1FCF15
+P 4150 3350
+F 0 "TP1" H 4208 3468 50  0000 L CNN
+F 1 "White LED" H 4208 3377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4350 3350 50  0001 C CNN
+F 3 "~" H 4350 3350 50  0001 C CNN
+	1    4150 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

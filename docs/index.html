@@ -17,33 +17,36 @@
   
 
   
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/my.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Procurement" href="procure.html" /> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
+    <link rel="next" title="Building" href="building.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -69,18 +72,22 @@
 
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
+    <a href="#">Overview</a>
+    
             
             
               
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="procure.html">Procurement</a></li>
-<li class="toctree-l1"><a class="reference internal" href="build.html">Assembly</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using.html">Using</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
 </ul>
 
             
           
+  
         </div>
       </div>
     </nav>
@@ -132,7 +139,7 @@
             
             
               <!-- User defined GitHub URL -->
-              <a href="https://github.com/Karpova-Lab/nosepoke" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/Karpova-Lab/nosepoke" class="fa fa-github"> View GitHub Repo</a>
             
           
         
@@ -143,7 +150,7 @@
   
   <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
       
-        <a href="procure.html" class="btn btn-neutral float-right" title="Procurement" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="building.html" class="btn btn-neutral float-right" title="Building" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
   </div>
@@ -155,110 +162,76 @@
             
   <div class="section" id="nosepoke-documentation">
 <h1>Nosepoke Documentation<a class="headerlink" href="#nosepoke-documentation" title="Permalink to this headline">¶</a></h1>
-<a class="reference internal image-reference" href="_images/iso.png"><img alt="_images/iso.png" class="align-center" src="_images/iso.png" style="width: 100%;" /></a>
-<p>This is the documentation for building a nosepoke for rat behavioral experiments.</p>
-<p>This project was developed by Andy Lustig in the <a class="reference external" href="https://www.janelia.org/lab/karpova-lab">Karpova Lab</a> at Janelia Research Campus</p>
-<div class="section" id="highlights">
-<h2>Highlights<a class="headerlink" href="#highlights" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><strong>Useful interface with rat</strong><ul>
-<li>Controllable overhead LED for lighting up the inside of the nosepoke</li>
-<li>Two infrared beam breaks for detecting nose insertion and licking</li>
-<li>Deep opening for the rat to comfortably insert its nose</li>
-<li>Shelf for liquid reward to accumulate instead of dripping onto floor</li>
-</ul>
-</li>
-<li><strong>Robust and Manufacturable</strong><ul>
-<li>Designed to be machined out of hard plastic by a typical machine shop. Less durable version can be 3D printed.</li>
-<li>Zero exposed wires, all connections are integrated in the PCB or made with solder joints.<ul>
-<li>No connectors or screw terimal to become loose</li>
-<li>No wires to be chewed through</li>
-</ul>
-</li>
-<li>Electronics can be easily scaled to larger quantities<ul>
-<li>Single sided PCB with surface mount components is ideal for a PCB assembly service or manual assembly with a toaster oven/hot plate/heat gun.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>Easy to install and maintain</strong><ul>
-<li>Designed to be press fit into 1.5” hole</li>
-<li>Backside push-to-connect tube fitting for easy connection/disconnection when replacing liquid reward tubing.</li>
-</ul>
-</li>
-<li><strong>Open Source</strong><ul>
-<li>All files are available on <a class="reference external" href=":github_url:https://github.com/Karpova-Lab/nosepoke">GitHub</a>  and can be modified to meet custom needs.</li>
-</ul>
-</li>
-</ul>
+<div class="figure align-center" id="id1">
+<a class="reference external image-reference" href="https://a360.co/349jTLC"><img alt="_images/rendered_combo-01.png" src="_images/rendered_combo-01.png" /></a>
+<p class="caption"><span class="caption-text">Click to view CAD model</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<div class="section" id="rj45-pinout">
-<h2>RJ45 Pinout<a class="headerlink" href="#rj45-pinout" title="Permalink to this headline">¶</a></h2>
-<table border="1" class="docutils">
-<colgroup>
-<col width="18%" />
-<col width="50%" />
-<col width="32%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">RJ45
-Pin</th>
-<th class="head">Description</th>
-<th class="head">Direction</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>1</td>
-<td>Nose Beam Break</td>
-<td>Output</td>
-</tr>
-<tr class="row-odd"><td>2</td>
-<td>&#160;</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>3</td>
-<td>White LED</td>
-<td>Input</td>
-</tr>
-<tr class="row-odd"><td>4</td>
-<td>&#160;</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>5</td>
-<td>Ground</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-odd"><td>6</td>
-<td>&#160;</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>7</td>
-<td>3.3 Volts</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-odd"><td>8</td>
-<td>Lick Beam Break</td>
-<td>Output</td>
-</tr>
-</tbody>
-</table>
+<p>This is the documentation for building a nosepoke for rat behavioral experiments.
+This project was developed by Andy Lustig in the <a class="reference external" href="https://www.janelia.org/lab/karpova-lab">Karpova Lab</a> at Janelia Research Campus.</p>
+<div class="section" id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Useful interface for rat</strong></p>
+<ul>
+<li><p>Controllable overhead LED for lighting up the inside of the nosepoke</p></li>
+<li><p>Infrared beam break for detecting nose insertion</p></li>
+<li><p>Shelf for liquid reward to accumulate instead of dripping onto floor</p></li>
+</ul>
+</li>
+<li><p><strong>Easy installation and maintenance</strong></p>
+<ul>
+<li><p>Designed to be press fit into 1.5” hole for easy installation and removal</p></li>
+<li><p>Backside push-to-connect tube fitting for quick connection/disconnection when replacing liquid reward tubing</p></li>
+</ul>
+</li>
+<li><p><strong>Robust and manufacturable</strong></p>
+<ul>
+<li><p>Designed to be machined out of hard plastic by a typical machine shop. A less durable version could be 3D printed</p></li>
+<li><p>Zero exposed wires, all connections are integrated in the PCB or made with solder joints.</p>
+<ul>
+<li><p>Removes possiblity of connections coming loose or wires becoming damaged over time</p></li>
+</ul>
+</li>
+<li><p>Electronics can be easily scaled to larger quantities</p>
+<ul>
+<li><p>Single sided PCB with surface mount components is ideal for a PCB assembly service or manual assembly with a toaster oven/hot plate/heat gun</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Open source</strong></p>
+<ul>
+<li><p>All files are available on <a class="reference external" href=":github_url:https://github.com/Karpova-Lab/nosepoke">GitHub</a>  and can be modified to meet custom needs</p></li>
+</ul>
+</li>
+</ul>
 </div>
 <div class="section" id="documenation-outline">
 <h2>Documenation Outline<a class="headerlink" href="#documenation-outline" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="procure.html">Procurement</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="procure.html#bill-of-materials">Bill of Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="procure.html#cad-files">CAD Files</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="procure.html#printed-circuit-board-pcb">Printed Circuit Board (PCB)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="procure.html#plastic-body">Plastic Body</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="building.html#components">Components</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="building.html#plastic-nosepoke-body">Plastic Nosepoke Body</a></li>
+<li class="toctree-l3"><a class="reference internal" href="building.html#pcbs-and-electronics">PCBs and Electronics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="building.html#hardware">Hardware</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="building.html#assembly">Assembly</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="building.html#required-tools">Required Tools</a></li>
+<li class="toctree-l3"><a class="reference internal" href="building.html#instructions">Instructions</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="build.html">Assembly</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="build.html#required-tools">Required Tools</a></li>
-<li class="toctree-l2"><a class="reference internal" href="build.html#instructions">Instructions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using.html">Using</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="using.html#pycontrol">pyControl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="using.html#example-task">Example task</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="license.html#hardware-license">Hardware License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="license.html#software-license">Software License</a></li>
 </ul>
 </li>
 </ul>
@@ -274,7 +247,7 @@ Pin</th>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="procure.html" class="btn btn-neutral float-right" title="Procurement" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="building.html" class="btn btn-neutral float-right" title="Building" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
     </div>
@@ -285,7 +258,9 @@ Pin</th>
   <div role="contentinfo">
     <p>
         &copy; Copyright 2018-2019, Andy Lustig
-      Last updated on Mar 28, 2019.
+      <span class="lastupdated">
+        Last updated on Apr 13, 2020.
+      </span>
 
     </p>
   </div>
@@ -302,26 +277,16 @@ Pin</th>
   
 
 
-  
-
-    
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
-    
-
-  
-
-  <script type="text/javascript" src="_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>

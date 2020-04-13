@@ -1,0 +1,254 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Using &mdash; Nosepoke 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/my.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="License" href="license.html" />
+    <link rel="prev" title="Building" href="building.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Nosepoke
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+    <a href="index.html">Overview</a>
+    
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Using</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pycontrol">pyControl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#example-task">Example task</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+</ul>
+
+            
+          
+  
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Nosepoke</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Using</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <!-- User defined GitHub URL -->
+              <a href="https://github.com/Karpova-Lab/nosepoke" class="fa fa-github"> View GitHub Repo</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="license.html" class="btn btn-neutral float-right" title="License" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="building.html" class="btn btn-neutral float-left" title="Building" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="using">
+<h1>Using<a class="headerlink" href="#using" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="pycontrol">
+<h2>pyControl<a class="headerlink" href="#pycontrol" title="Permalink to this headline">¶</a></h2>
+<p>This nosepoke works with the <a class="reference external" href="https://pycontrol.readthedocs.io/en/latest/">pyControl</a> behavior framework. Specifically, this means that the RJ45 <a class="reference external" href="https://pycontrol.readthedocs.io/en/latest/user-guide/hardware/#behaviour-ports">pinout</a>  is compatible with pyControl. Using an ethernet cable, you can connect the nosepoke to an  <a class="reference external" href="https://open-ephys.org/pycontrol/pycontrol">original breakout board</a>  or a <a class="reference external" href="https://karpova-lab.github.io/pyControl-D-Series-Breakout/index.html">D-series breakout board</a>.</p>
+<p>The latest sofware release can be downloaded <a class="reference external" href="https://github.com/pyControl/code/releases">here</a>. Additional pyControl harware can be purchased from the <a class="reference external" href="https://open-ephys.org/pycontrol">Open Ephys Store</a>.</p>
+</div>
+<div class="section" id="example-task">
+<h2>Example task<a class="headerlink" href="#example-task" title="Permalink to this headline">¶</a></h2>
+<p>Instuctions for using the pyControl GUI to upload and run a task can be found <a class="reference external" href="https://pycontrol.readthedocs.io/en/latest/user-guide/graphical-user-interface/">here</a>.</p>
+<p>Below is an example task you can run to test the nosepoke. This task assumes there is a nosepoke connected to port 1 of your breakout board and the <code class="docutils literal notranslate"><span class="pre">hardware_definition.py</span></code> file (included with the the software download) has been uploaded to your pyBoard. Once the task is running, the nosepoke LED will turn on whenever a poke is being detected.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pyControl.utility</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">import</span> <span class="nn">hardware_definition</span> <span class="k">as</span> <span class="nn">hw</span>
+
+<span class="n">states</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;init_state&#39;</span><span class="p">]</span>
+
+<span class="n">events</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;left_poke&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;left_poke_out&#39;</span><span class="p">]</span>
+
+<span class="n">initial_state</span> <span class="o">=</span> <span class="s1">&#39;init_state&#39;</span>
+
+<span class="k">def</span> <span class="nf">init_state</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">event</span> <span class="o">==</span> <span class="s1">&#39;left_poke&#39;</span><span class="p">:</span>
+        <span class="n">hw</span><span class="o">.</span><span class="n">left_poke</span><span class="o">.</span><span class="n">LED</span><span class="o">.</span><span class="n">on</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="n">event</span> <span class="o">==</span> <span class="s1">&#39;left_poke_out&#39;</span><span class="p">:</span>
+        <span class="n">hw</span><span class="o">.</span><span class="n">left_poke</span><span class="o">.</span><span class="n">LED</span><span class="o">.</span><span class="n">off</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>For more information on writing your own tasks, refer to the documenation <a class="reference external" href="https://pycontrol.readthedocs.io/en/latest/user-guide/programming-tasks/">here</a>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="license.html" class="btn btn-neutral float-right" title="License" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="building.html" class="btn btn-neutral float-left" title="Building" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018-2019, Andy Lustig
+      <span class="lastupdated">
+        Last updated on Apr 13, 2020.
+      </span>
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

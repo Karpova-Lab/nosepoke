@@ -1,0 +1,8 @@
+"Qty","Reference","Description","Value/MPN","Purchase Link"
+"1","D1","IR LED","IR26-21C/L110/TR8","https://www.digikey.com/products/en?keywords=1080-1357-1-ND"
+"1","D2","Diffused White LED","23-11/T7D-CQ2R2QY/2A","https://www.digikey.com/products/en?keywords=1080-1593-1-ND"
+"1","J1","RJ45 Jack","0855135013","https://www.digikey.com/products/en?keywords=WM3553CT-ND"
+"1","Q1","Phototransistor","PT26-21C/TR8","https://www.digikey.com/products/en?keywords=1080-1386-1-ND"
+"1","R1","0603 Resistor","330Ω","https://www.digikey.com/products/en?keywords=P330HCT-ND"
+"1","R2","0603 Resistor","10KΩ","https://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647/?itemSeq=322900504"
+"1","R3","0603 Resistor","82Ω","https://www.digikey.com/products/en?keywords=311-82.0HRCT-ND"

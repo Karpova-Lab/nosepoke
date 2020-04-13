@@ -28,3 +28,7 @@ html:
 	cp -R $(BUILDDIR)/html/ $(BUILDDIR)/../../docs/
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+
+clean:
+	rm -rf $(BUILDDIR)/*
+	rm -rf $(BUILDDIR)/../../docs/
