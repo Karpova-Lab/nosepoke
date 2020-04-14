@@ -28,7 +28,6 @@ PCBs and Electronics
 PCB source files are on `GitHub <https://github.com/Karpova-Lab/nosepoke/tree/master/pcb>`_ 
 
 .. image:: pics/back_pcb.png
-  :height: 250px
   :width: 60%
 
 .. raw:: html
@@ -37,7 +36,7 @@ PCB source files are on `GitHub <https://github.com/Karpova-Lab/nosepoke/tree/ma
       <img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" style="width: 35%;" alt="Order from OSH Park"></img>
   </a></div>
 
-.. image:: pics/perimeter_pcb.png
+.. image:: pics/outer_pcb.png
   :width: 60%
 
 .. raw:: html
