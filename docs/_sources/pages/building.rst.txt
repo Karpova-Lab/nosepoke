@@ -16,11 +16,11 @@ Plastic Nosepoke Body
   :width: 39%
 
 .. image:: pics/nosepoke.png
-  :target: _static/nosepoke.pdf
+  :target: ../_static/nosepoke.pdf
   :width: 59%
 
-- Download :download:`nosepoke.stl <_static/nosepoke.stl>` 
-- Download :download:`nosepoke.step <_static/nosepoke.step>` 
+- Download :download:`nosepoke.stl <../_static/nosepoke.stl>` 
+- Download :download:`nosepoke.step <../_static/nosepoke.step>` 
 
 
 PCBs and Electronics
@@ -99,15 +99,37 @@ Required Tools
 
 Instructions
 ============
-#. Solder components onto backside PCB.
-#. Secure backside PCB to the back of the nosepoke using two M2.5 screws.
-#. Solder components onto the perimeter PCBs.
-#. Place the perimeter PCBs into the channels of the nosepoke. The IR emitter (D1) goes on the left side, the white LED (D2) goes on top and the phototransistor (Q1) goes on the right side.
-#. Add solder to the joints of the PCBs to create both electrical and mechanical connections.
-#. Using a 2mm hex key or screwdriver, screw in the push-to-connect fitting.
+1. Secure backside PCB to the back of the nosepoke using two M2.5 screws.
 
-.. image:: pics/solid_color.gif
+.. image:: pics/assembly/backside_before.jpg
+  :width: 48%
+
+.. image:: pics/assembly/backside_after.jpg
+  :width: 48%
+
+2. Place the perimeter PCBs into the channels of the nosepoke and solder the joints of the PCBs to create both electrical and mechanical connections.
+
+  .. note::
+    The IR emitter (D1) goes on the left side, the white LED (D2) goes on top and the phototransistor (Q1) goes on the right side.
+
+.. image:: pics/assembly/perimeter_before.jpg
+
+.. image:: pics/assembly/adding_joint.jpg
+  :width: 48%
+
+.. image:: pics/assembly/final_joints.jpg
+  :width: 48%
+
+
+
+3. Using a 2mm hex key or screwdriver, screw in the push-to-connect fitting.
+
+.. image:: pics/assembly/pushconnect_before.jpg
+  :width: 48%
+
+.. image:: pics/assembly/pushconnect_after.jpg
+  :width: 48%
+
+.. image:: pics/assembly/solid_color.gif
   :align: center
   
-.. image:: pics/wireframe.gif
-  :align: center

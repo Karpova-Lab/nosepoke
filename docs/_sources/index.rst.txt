@@ -53,7 +53,7 @@ Documenation Outline
 .. toctree::
    :maxdepth: 3
    
-   building.rst
-   using.rst
-   license.rst
+   pages/building.rst
+   pages/using.rst
+   pages/license.rst
 

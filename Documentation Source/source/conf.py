@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Nosepoke'
-copyright = '2018-2019, Andy Lustig'
+copyright = '2018-2020, Andy Lustig'
 author = 'Andy Lustig'
 
 # The short X.Y version
-version = '1.0'
+version = '1.1'
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = '1.1'
 
 
 # -- General configuration ---------------------------------------------------
