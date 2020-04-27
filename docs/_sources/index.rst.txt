@@ -8,7 +8,7 @@
 Nosepoke Documentation
 ======================
 
-.. figure:: pics/rendered_combo-01.png
+.. figure:: pages/pics/rendered_2view.png
   :align: center
   :target: https://a360.co/349jTLC
 
