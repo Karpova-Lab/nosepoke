@@ -67,7 +67,7 @@ PCB source files are on `GitHub <https://github.com/Karpova-Lab/nosepoke/tree/ma
 .. raw:: html
 
   <div style="text-align:center; margin-bottom:24px">
-    <a href="_static/backside_ibom.html" style="background-color: #2980b9;
+    <a href="../_static/backside_ibom.html" style="background-color: #2980b9;
     border: none;
     color: white;
     padding: 15px 15px;

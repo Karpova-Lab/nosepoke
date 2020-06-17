@@ -24,9 +24,9 @@ copyright = '2018-2020, Andy Lustig'
 author = 'Andy Lustig'
 
 # The short X.Y version
-version = '1.1'
+version = ''
 # The full version, including alpha/beta/rc tags
-release = '1.1'
+release = ''
 
 
 # -- General configuration ---------------------------------------------------
