@@ -3,3 +3,7 @@ Documentation Source/.vscode
 settings.json
 3d CAD/animations
 pcb/render
+*.kicad_prl
+pcb/fp-info-cache
+pcb/manufacturing
+*.zip
