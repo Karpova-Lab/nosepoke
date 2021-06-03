@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Nosepoke</title>
+    <link>https://karpova-lab.github.io/nosepoke/docs/</link>
+    <description>Recent content in Docs on Nosepoke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://karpova-lab.github.io/nosepoke/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://karpova-lab.github.io/nosepoke/docs/building/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://karpova-lab.github.io/nosepoke/docs/building/</guid>
+      <description>Building #  Components #  Plastic Nosepoke Body #       nosepoke.stl   nosepoke.step 
+PCBs and Electronics #  PCB source files are on GitHub
+Rear PCB
+   Outer PCB
+       Qty Reference Description Value/MPN     1 D1 IR LED IR26-21C/L110/TR8   1 D2 Diffused White LED 23-11/T7D-CQ2R2QY/2A   1 J1 RJ45 Jack 0855135013   1 Q1 Phototransistor PT26-21C/TR8   1 R1 0603 Resistor 200Ω   1 R2 0603 Resistor 82Ω   1 R3 0603 Resistor 10KΩ   1 R4 0603 Resistor 20KΩ    View interactive Bill of Materials  Hardware #     QTY Description Part Number Supplier     1 1/8&amp;quot; Push-to-connect fitting 7880t137 McMaster-Carr   2 5mm long M2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://karpova-lab.github.io/nosepoke/docs/using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://karpova-lab.github.io/nosepoke/docs/using/</guid>
+      <description>Using #  pyControl #  This nosepoke works with the pyControl behavior framework. Specifically, this means that the RJ45 pinout is compatible with pyControl. Using an ethernet cable, you can connect the nosepoke to an original breakout board or a D-series breakout board.
+The latest sofware release can be downloaded here. Additional pyControl harware can be purchased from the Open Ephys Store.
+Example task #  Instuctions for using the pyControl GUI to upload and run a task can be found here.</description>
+    </item>
+    
+  </channel>
+</rss>

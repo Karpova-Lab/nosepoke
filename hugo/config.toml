@@ -1,0 +1,21 @@
+baseURL = "https://karpova-lab.github.io/nosepoke/"
+title = "Nosepoke"
+languageCode = "en-us"
+publishDir = "../docs/"
+theme = "book"
+
+[params]
+  BookSearch = false
+  BookTheme = 'light'
+  BookRepo =  'https://github.com/Karpova-Lab/nosepoke'
+  
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+
+  [markup.highlight] 
+      style = 'friendly'
