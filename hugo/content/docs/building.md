@@ -1,3 +1,9 @@
+---
+prev_txt: Overview
+prev_link: ..
+next_txt: Using
+next_link: using
+---
 # Building
 ![](parts.jpg)
 
@@ -109,6 +115,3 @@ The IR emitter (D1) goes on the left side, the white LED (D2) goes on top and th
 {{< /columns >}}
 
 <img src="assembly/solid_color.gif" style="width:100%;"></img>
-
-{{< previous link="../" text="Overview" >}}
-{{< next link="using" text="Using" >}}

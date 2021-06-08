@@ -1,3 +1,7 @@
+---
+prev_txt: Building
+prev_link: building
+---
 # Using
 
 ## pyControl
@@ -34,6 +38,8 @@ events = ['poke', 'poke_out']
 initial_state = 'init_state'
 
 def init_state(event):
+    if event == 'entry':
+        nose.IR_LED.on()
     if event == 'poke':
         nose.LED.on()
     elif event == 'poke_out':
@@ -41,5 +47,3 @@ def init_state(event):
 ```
 
 For more information on writing your own tasks, refer to the [pyControl documentation](https://pycontrol.readthedocs.io/en/latest/user-guide/programming-tasks/).
-
-{{< previous link="building" text="Building" >}}

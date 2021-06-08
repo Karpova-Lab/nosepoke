@@ -1,3 +1,7 @@
+---
+next_txt: Building
+next_link: building
+---
 # Overview
 
 
@@ -35,5 +39,3 @@ This project was developed in the [Karpova Lab](https://www.janelia.org/lab/karp
 **Open source**
 
   - All files are available on [GitHub](https://github.com/Karpova-Lab/nosepoke) and can be modified to meet custom needs
-
-{{< next link="building" text="Building" >}}
