@@ -5,22 +5,24 @@ next_txt: Using
 next_link: using
 ---
 # Building
-![](parts.jpg)
+{{< pic file="parts.jpg" >}}
 
 ## Components
 
 ### Plastic Nosepoke Body
 
 {{< columns >}}
-![](plastic.png)
+{{< pic file="plastic.png" >}}
 <--->
 
-![](nosepoke.png)
+{{< pic file="nosepoke.png" >}}
 {{< /columns >}}
 
 {{< download filename="nosepoke.stl" text="nosepoke.stl" >}}
 <br>
 {{< download filename="nosepoke.step" text="nosepoke.step" >}}
+<br>
+{{< download filename="nosepoke_drawing.pdf" text="nosepoke_drawing.pdf" >}}
 
 
 
@@ -30,7 +32,7 @@ PCB source files are on [GitHub](https://github.com/Karpova-Lab/nosepoke/tree/ma
 
 {{< columns >}}
 
-![](back_pcb.png)
+{{< pic file="back_pcb.png" >}}
 {{< caption text="Rear PCB" >}}
 
 <div style="text-align:center;">
@@ -39,8 +41,9 @@ PCB source files are on [GitHub](https://github.com/Karpova-Lab/nosepoke/tree/ma
 <--->
 
 
-![](outer_pcb.png)
-{{< caption text="Outer PCB" >}}
+{{< pic file="outer_pcb.png" >}}
+
+{{< caption text="Perimeter PCB" >}}
 
 <div style="text-align:center;">
 <a href="https://oshpark.com/shared_projects/ehOwH3Wp"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
@@ -79,10 +82,12 @@ PCB source files are on [GitHub](https://github.com/Karpova-Lab/nosepoke/tree/ma
 1. Secure backside PCB to the back of the nosepoke using two M2.5 screws.
 
 {{< columns >}}
-![](assembly/backside_before.jpg)
+
+{{< pic file="assembly/backside_before.jpg" >}}
+
 <--->
 
-![](assembly/backside_after.jpg)
+{{< pic file="assembly/backside_after.jpg" >}}
 {{< /columns >}}
 
 
@@ -94,13 +99,13 @@ The IR emitter (D1) goes on the left side, the white LED (D2) goes on top and th
 
 {{< /hint >}}
 
-![](assembly/perimeter_before.jpg)
+{{< pic file="assembly/perimeter_before.jpg" >}}
 
 {{< columns >}}
-![](assembly/adding_joint.jpg)
+{{< pic file="assembly/adding_joint.jpg" >}}
 <--->
 
-![](assembly/final_joints.jpg)
+{{< pic file="assembly/final_joints.jpg" >}}
 {{< /columns >}}
 
 
@@ -108,9 +113,9 @@ The IR emitter (D1) goes on the left side, the white LED (D2) goes on top and th
 3. Using a 2mm hex key or screwdriver, screw in the push-to-connect fitting.
 
 {{< columns >}}
-![](assembly/pushconnect_before.jpg)
+{{< pic file="assembly/pushconnect_before.jpg" >}}
 <--->
-![](assembly/pushconnect_after.jpg)
+{{< pic file="assembly/pushconnect_after.jpg" >}}
 
 {{< /columns >}}
 

@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Using #  pyControl #  This nosepoke works with the pyControl behavior framework. Specifically, this means that the RJ45 pinout is compatible with pyControl. Using an ethernet cable, you can connect the nosepoke to an original breakout board or a D-series breakout board.
-The latest sofware release can be downloaded here. Additional pyControl harware can be purchased from the Open Ephys Store.
-Example task #  Instuctions for using the pyControl GUI to upload and run a task can be found here.">
+The latest software release can be downloaded here. Additional pyControl hardware can be purchased from the Open Ephys Store.
+Example task #   Note For the example to work,  _nosepoke.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
 <meta property="og:description" content="Using #  pyControl #  This nosepoke works with the pyControl behavior framework. Specifically, this means that the RJ45 pinout is compatible with pyControl. Using an ethernet cable, you can connect the nosepoke to an original breakout board or a D-series breakout board.
-The latest sofware release can be downloaded here. Additional pyControl harware can be purchased from the Open Ephys Store.
-Example task #  Instuctions for using the pyControl GUI to upload and run a task can be found here." />
+The latest software release can be downloaded here. Additional pyControl hardware can be purchased from the Open Ephys Store.
+Example task #   Note For the example to work,  _nosepoke." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://karpova-lab.github.io/nosepoke/docs/using/" /><meta property="article:section" content="docs" />
 
@@ -18,7 +18,7 @@ Example task #  Instuctions for using the pyControl GUI to upload and run a task
 <title>Using | Nosepoke</title>
 <link rel="manifest" href="/nosepoke/manifest.json">
 <link rel="icon" href="/nosepoke/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/nosepoke/book.min.01b0771bbeccf07610a3fe838d7b05dd5e2c05fb4c879f2a205d7bae9d05181a.css" integrity="sha256-AbB3G77M8HYQo/6DjXsF3V4sBftMh58qIF17rp0FGBo=" crossorigin="anonymous"><!--
+<link rel="stylesheet" href="/nosepoke/book.min.a43f7b304433884f33d477462fc1b4498e5564e3f5caf83163b4647ebc05ff9e.css" integrity="sha256-pD97MEQziE8z1HdGL8G0SY5VZOP1yvgxY7RkfrwF/54=" crossorigin="anonymous"><!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
@@ -40,7 +40,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-<div style="border-top: 1px solid #d3d3d3; padding-top:10px; width: 75%;"></div>
+<div class="menu-before"></div>
 
 
 
@@ -96,23 +96,28 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-<div style="border-top: 1px solid #d3d3d3; padding-top:20px; width: 75%;">
+<div class="menu-after">
 </div>
+
 <a href="https://github.com/Karpova-Lab/nosepoke" class="btn-external issue">
     <i class="fab fa-github"></i>
-      GitHub Repository
-</a>
-<br>
-
-<p class="github_text">Questions? Feedback? Ideas?</p>
-<a href="https://github.com/Karpova-Lab/nosepoke/discussions" class="btn-external issue">
-    <i class="fas fa-comments"></i>   Add to discussions
+    GitHub Repository
 </a>
 
-<p class="github_text">Corrections?</p>
-<a href="https://github.com/Karpova-Lab/nosepoke/issues/new" class="btn-external issue">
-    <i class="fas fa-edit"></i> Submit an issue 
-</a>
+<div class="below">
+    <br>
+
+    <p class="github_text">Questions? Feedback? Ideas?</p>
+    <a href="https://github.com/Karpova-Lab/nosepoke/discussions" class="btn-external issue">
+        <i class="fas fa-comments"></i>   Add to discussions
+    </a>
+
+    <p class="github_text">Corrections?</p>
+    <a href="https://github.com/Karpova-Lab/nosepoke/issues/new" class="btn-external issue">
+        <i class="fas fa-edit"></i> Submit an issue 
+    </a>
+
+</div>
 </nav>
 
 
@@ -176,15 +181,22 @@ https://github.com/alex-shpak/hugo-book
 <p>This nosepoke works with the <a href="https://pycontrol.readthedocs.io/en/latest/">pyControl</a> behavior framework.
 Specifically, this means that the RJ45 <a href="https://pycontrol.readthedocs.io/en/latest/user-guide/hardware/#behaviour-ports">pinout</a> is compatible with pyControl.
 Using an ethernet cable, you can connect the nosepoke to an <a href="https://open-ephys.org/pycontrol/pycontrol">original breakout board</a> or a <a href="https://karpova-lab.github.io/pyControl-D-Series-Breakout/index.html">D-series breakout board</a>.</p>
-<p>The latest sofware release can be downloaded <a href="https://github.com/pyControl/code/releases">here</a>.
-Additional pyControl harware can be purchased from the <a href="https://open-ephys.org/pycontrol">Open Ephys Store</a>.</p>
+<p>The latest software release can be downloaded <a href="https://github.com/pyControl/code/releases">here</a>.
+Additional pyControl hardware can be purchased from the <a href="https://open-ephys.org/pycontrol">Open Ephys Store</a>.</p>
 <h2 id="example-task">
   Example task
   <a class="anchor" href="#example-task">#</a>
 </h2>
-<p>Instuctions for using the pyControl GUI to upload and run a task can be found <a href="https://pycontrol.readthedocs.io/en/latest/user-guide/graphical-user-interface/">here</a>.</p>
-<p>Below is an example task you can run to test the nosepoke.
-This task assumes there is a nosepoke connected to port 1 of your breakout board and the <code>hardware_definition.py</code> file (included with the the software download) has been uploaded to your pyBoard.
+<blockquote class="book-hint info">
+  <h3 id="i-classfas-fa-info-circlei-note"><i class="fas fa-info-circle"></i> Note</h3>
+<p>For the example to work,  <a href="_nosepoke.py" download > <i class="fa fa-download"></i> _nosepoke.py </a> must be downloaded and placed in your <code>devices</code> folder.
+Then after connecting to you pyboard, use the &ldquo;config&rdquo; button to &ldquo;Load framework&rdquo;.
+This will transfer the device files, including _nosepoke.py, from your computer onto the pyboard microcontroller.
+</blockquote>
+
+<p>Instructions for using the pyControl GUI to upload and run a task can be found <a href="https://pycontrol.readthedocs.io/en/latest/user-guide/graphical-user-interface/">here</a>.</p>
+<p>Below is an example task that can be run to test the nosepoke.
+This task assumes there is a nosepoke connected to <strong>port 1</strong> of a breakout board and the <code>hardware_definition.py</code> file (included with the software download) has been uploaded to the pyboard.
 Once the task is running, the nosepoke LED will turn on whenever a poke is being detected.</p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#007020;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">pyControl.utility</span> <span style="color:#007020;font-weight:bold">import</span> <span style="color:#666">*</span>
 <span style="color:#007020;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">devices</span> <span style="color:#007020;font-weight:bold">import</span> <span style="color:#666">*</span>
@@ -202,21 +214,30 @@ events <span style="color:#666">=</span> [<span style="color:#4070a0">&#39;poke&
 initial_state <span style="color:#666">=</span> <span style="color:#4070a0">&#39;init_state&#39;</span>
 
 <span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">init_state</span>(event):
+    <span style="color:#007020;font-weight:bold">if</span> event <span style="color:#666">==</span> <span style="color:#4070a0">&#39;entry&#39;</span>:
+        nose<span style="color:#666">.</span>IR_LED<span style="color:#666">.</span>on()
     <span style="color:#007020;font-weight:bold">if</span> event <span style="color:#666">==</span> <span style="color:#4070a0">&#39;poke&#39;</span>:
         nose<span style="color:#666">.</span>LED<span style="color:#666">.</span>on()
     <span style="color:#007020;font-weight:bold">elif</span> event <span style="color:#666">==</span> <span style="color:#4070a0">&#39;poke_out&#39;</span>:
         nose<span style="color:#666">.</span>LED<span style="color:#666">.</span>off()
 </code></pre></div><p>For more information on writing your own tasks, refer to the <a href="https://pycontrol.readthedocs.io/en/latest/user-guide/programming-tasks/">pyControl documentation</a>.</p>
-
-
-
-<a class="btn-nav prev" href= https://karpova-lab.github.io/nosepoke/docs/building/>
-    <i style="font-size: 1rem;">previous</i><br><i class="fas fa-arrow-left"></i> Building</i>
-</a>
-
 </article>
  
-      
+      <div class="chapter_btns">
+    
+    
+        
+        
+
+        <a class="btn-nav prev" href= https://karpova-lab.github.io/nosepoke/docs/building/>
+            <i style="font-size: 1rem;">previous</i><br><i class="fas fa-arrow-left"></i> Building</i>
+        </a>
+    
+    
+    
+    
+
+</div>
 
       <footer class="book-footer">
         
@@ -234,7 +255,8 @@ initial_state <span style="color:#666">=</span> <span style="color:#4070a0">&#39
 
 
  
-        
+        <br>
+These docs were built with <a href="https://gohugo.io/">Hugo</a> using a fork of the <a href="https://github.com/alustig3/hugo-book">Hugo Book Theme</a> as the theme.
       </footer>
 
       
