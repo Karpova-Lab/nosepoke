@@ -18,7 +18,7 @@ Example task #   Note For the example to work,  _nosepoke." />
 <title>Using | Nosepoke</title>
 <link rel="manifest" href="/nosepoke/manifest.json">
 <link rel="icon" href="/nosepoke/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/nosepoke/book.min.a43f7b304433884f33d477462fc1b4498e5564e3f5caf83163b4647ebc05ff9e.css" integrity="sha256-pD97MEQziE8z1HdGL8G0SY5VZOP1yvgxY7RkfrwF/54=" crossorigin="anonymous"><!--
+<link rel="stylesheet" href="/nosepoke/book.min.c969c1a25ce0fbdd32c9e0fbda80701b09aa69e01403ce91dc5cb30167218af9.css" integrity="sha256-yWnBolzg&#43;90yyeD72oBwGwmqaeAUA86R3FyzAWchivk=" crossorigin="anonymous"><!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
@@ -54,6 +54,9 @@ https://github.com/alex-shpak/hugo-book
 
   
   <ul>
+    <li>
+      <a href= "/nosepoke/" class="">Overview</a>
+    </li>
     
       
         <li>
@@ -198,28 +201,28 @@ This will transfer the device files, including _nosepoke.py, from your computer 
 <p>Below is an example task that can be run to test the nosepoke.
 This task assumes there is a nosepoke connected to <strong>port 1</strong> of a breakout board and the <code>hardware_definition.py</code> file (included with the software download) has been uploaded to the pyboard.
 Once the task is running, the nosepoke LED will turn on whenever a poke is being detected.</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#007020;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">pyControl.utility</span> <span style="color:#007020;font-weight:bold">import</span> <span style="color:#666">*</span>
-<span style="color:#007020;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">devices</span> <span style="color:#007020;font-weight:bold">import</span> <span style="color:#666">*</span>
-<span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">pyControl.hardware</span> <span style="color:#007020;font-weight:bold">as</span> <span style="color:#0e84b5;font-weight:bold">_h</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> pyControl.utility <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+<span style="color:#f92672">from</span> devices <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+<span style="color:#f92672">import</span> pyControl.hardware <span style="color:#f92672">as</span> _h
 
-<span style="color:#60a0b0;font-style:italic">## uncomment one of the following two lines depending out which breakout board you are using</span>
-board <span style="color:#666">=</span> Breakout_1_2()  <span style="color:#60a0b0;font-style:italic"># original pyboard breakout</span>
-<span style="color:#60a0b0;font-style:italic"># board = Breakout_dseries_1_6()  # d-series pyboard breakout</span>
+<span style="color:#75715e">## uncomment one of the following two lines depending out which breakout board you are using</span>
+board <span style="color:#f92672">=</span> Breakout_1_2()  <span style="color:#75715e"># original pyboard breakout</span>
+<span style="color:#75715e"># board = Breakout_dseries_1_6()  # d-series pyboard breakout</span>
 
-nose <span style="color:#666">=</span> Nosepoke(board<span style="color:#666">.</span>port_1, nose_event<span style="color:#666">=</span><span style="color:#4070a0">&#34;poke&#34;</span>)
+nose <span style="color:#f92672">=</span> Nosepoke(board<span style="color:#f92672">.</span>port_1, nose_event<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;poke&#34;</span>)
 
-states <span style="color:#666">=</span> [<span style="color:#4070a0">&#39;init_state&#39;</span>]
-events <span style="color:#666">=</span> [<span style="color:#4070a0">&#39;poke&#39;</span>, <span style="color:#4070a0">&#39;poke_out&#39;</span>]
+states <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;init_state&#39;</span>]
+events <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;poke&#39;</span>, <span style="color:#e6db74">&#39;poke_out&#39;</span>]
 
-initial_state <span style="color:#666">=</span> <span style="color:#4070a0">&#39;init_state&#39;</span>
+initial_state <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;init_state&#39;</span>
 
-<span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">init_state</span>(event):
-    <span style="color:#007020;font-weight:bold">if</span> event <span style="color:#666">==</span> <span style="color:#4070a0">&#39;entry&#39;</span>:
-        nose<span style="color:#666">.</span>IR_LED<span style="color:#666">.</span>on()
-    <span style="color:#007020;font-weight:bold">if</span> event <span style="color:#666">==</span> <span style="color:#4070a0">&#39;poke&#39;</span>:
-        nose<span style="color:#666">.</span>LED<span style="color:#666">.</span>on()
-    <span style="color:#007020;font-weight:bold">elif</span> event <span style="color:#666">==</span> <span style="color:#4070a0">&#39;poke_out&#39;</span>:
-        nose<span style="color:#666">.</span>LED<span style="color:#666">.</span>off()
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">init_state</span>(event):
+    <span style="color:#66d9ef">if</span> event <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;entry&#39;</span>:
+        nose<span style="color:#f92672">.</span>IR_LED<span style="color:#f92672">.</span>on()
+    <span style="color:#66d9ef">if</span> event <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;poke&#39;</span>:
+        nose<span style="color:#f92672">.</span>LED<span style="color:#f92672">.</span>on()
+    <span style="color:#66d9ef">elif</span> event <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;poke_out&#39;</span>:
+        nose<span style="color:#f92672">.</span>LED<span style="color:#f92672">.</span>off()
 </code></pre></div><p>For more information on writing your own tasks, refer to the <a href="https://pycontrol.readthedocs.io/en/latest/user-guide/programming-tasks/">pyControl documentation</a>.</p>
 </article>
  
@@ -256,7 +259,7 @@ initial_state <span style="color:#666">=</span> <span style="color:#4070a0">&#39
 
  
         <br>
-These docs were built with <a href="https://gohugo.io/">Hugo</a> using a fork of the <a href="https://github.com/alustig3/hugo-book">Hugo Book Theme</a> as the theme.
+These docs are built with <a href="https://gohugo.io/">Hugo</a> . A fork of <a href="https://github.com/alustig3/hugo-book">Hugo Book</a> is used for the theme.
       </footer>
 
       

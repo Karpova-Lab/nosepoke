@@ -18,4 +18,4 @@ theme = "book"
     endLevel = 4
 
   [markup.highlight] 
-      style = 'friendly'
+      style = 'monokai'
