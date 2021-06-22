@@ -1,6 +1,6 @@
 ---
-next_txt: Building
-next_link: building
+next_txt: BOMs and Design Files
+next_link: designs
 ---
 # Overview
 

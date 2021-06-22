@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Bill of Materials and Design Files #     Plastic Nosepoke Body #           nosepoke.stl   nosepoke.step   nosepoke_drawing.pdf 
+PCBs and Electronics #  PCB source files are on GitHub
+   Rear PCB
+      Perimeter PCB
+       Qty Reference Description Value/MPN     1 D1 IR LED IR26-21C/L110/TR8   1 D2 Diffused White LED 23-11/T7D-CQ2R2QY/2A   1 J1 RJ45 Jack 0855135013   1 Q1 Phototransistor PT26-21C/TR8   1 R1 0603 Resistor 200Ω   1 R2 0603 Resistor 82Ω   1 R3 0603 Resistor 10KΩ   1 R4 0603 Resistor 20KΩ    View interactive Bill of Materials  Hardware #     QTY Description Part Number Supplier     1 1/8&quot; Push-to-connect fitting 7880t137 McMaster-Carr   2 5mm long M2.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="BOM and Design files" />
+<meta property="og:description" content="Bill of Materials and Design Files #     Plastic Nosepoke Body #           nosepoke.stl   nosepoke.step   nosepoke_drawing.pdf 
+PCBs and Electronics #  PCB source files are on GitHub
+   Rear PCB
+      Perimeter PCB
+       Qty Reference Description Value/MPN     1 D1 IR LED IR26-21C/L110/TR8   1 D2 Diffused White LED 23-11/T7D-CQ2R2QY/2A   1 J1 RJ45 Jack 0855135013   1 Q1 Phototransistor PT26-21C/TR8   1 R1 0603 Resistor 200Ω   1 R2 0603 Resistor 82Ω   1 R3 0603 Resistor 10KΩ   1 R4 0603 Resistor 20KΩ    View interactive Bill of Materials  Hardware #     QTY Description Part Number Supplier     1 1/8&quot; Push-to-connect fitting 7880t137 McMaster-Carr   2 5mm long M2." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://karpova-lab.github.io/nosepoke/docs/designs/" /><meta property="article:section" content="docs" />
+
+
+
+<title>BOM and Design files | Nosepoke</title>
+<link rel="manifest" href="/nosepoke/manifest.json">
+<link rel="icon" href="/nosepoke/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/nosepoke/book.min.c969c1a25ce0fbdd32c9e0fbda80701b09aa69e01403ce91dc5cb30167218af9.css" integrity="sha256-yWnBolzg&#43;90yyeD72oBwGwmqaeAUA86R3FyzAWchivk=" crossorigin="anonymous"><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  <script src="https://kit.fontawesome.com/622646117d.js" crossorigin="anonymous"></script>
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/nosepoke/"><span>Nosepoke</span>
+  </a>
+</h2>
+
+
+
+
+<div class="menu-before"></div>
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    <li>
+      <a href= "/nosepoke/" class="">Overview</a>
+    </li>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://karpova-lab.github.io/nosepoke/docs/designs/" class=" active">BOM and Design files</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://karpova-lab.github.io/nosepoke/docs/building/" class="">Building</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://karpova-lab.github.io/nosepoke/docs/using/" class="">Using</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="menu-after">
+</div>
+
+<a href="https://github.com/Karpova-Lab/nosepoke" class="btn-external issue">
+    <i class="fab fa-github"></i>
+    GitHub Repository
+</a>
+
+<div class="below">
+    <br>
+
+    <p class="github_text">Questions? Feedback? Ideas?</p>
+    <a href="https://github.com/Karpova-Lab/nosepoke/discussions" class="btn-external issue">
+        <i class="fas fa-comments"></i>   Add to discussions
+    </a>
+
+    <p class="github_text">Corrections?</p>
+    <a href="https://github.com/Karpova-Lab/nosepoke/issues/new" class="btn-external issue">
+        <i class="fas fa-edit"></i> Submit an issue 
+    </a>
+
+</div>
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/nosepoke/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <label for="toc-control">
+    
+    <img src="/nosepoke/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#bill-of-materials-and-design-files">Bill of Materials and Design Files</a>
+      <ul>
+        <li><a href="#plastic-nosepoke-body">Plastic Nosepoke Body</a></li>
+        <li><a href="#pcbs-and-electronics">PCBs and Electronics</a></li>
+        <li><a href="#hardware">Hardware</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="bill-of-materials-and-design-files">
+  Bill of Materials and Design Files
+  <a class="anchor" href="#bill-of-materials-and-design-files">#</a>
+</h1>
+<p>
+	<a href="parts.jpg">
+		<img src="parts.jpg" ></img>
+	</a>
+</p>
+
+<h2 id="plastic-nosepoke-body">
+  Plastic Nosepoke Body
+  <a class="anchor" href="#plastic-nosepoke-body">#</a>
+</h2>
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <a href="plastic.png">
+		<img src="plastic.png" ></img>
+	</a>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <a href="nosepoke.png">
+		<img src="nosepoke.png" ></img>
+	</a>
+  </div>
+  
+</div>
+
+<p>
+
+
+<a href="nosepoke.stl" download >
+    <i class="fa fa-download"></i> nosepoke.stl
+</a>
+<br>
+
+
+
+<a href="nosepoke.step" download >
+    <i class="fa fa-download"></i> nosepoke.step
+</a>
+<br>
+
+
+
+<a href="nosepoke_drawing.pdf" download >
+    <i class="fa fa-download"></i> nosepoke_drawing.pdf
+</a></p>
+<h2 id="pcbs-and-electronics">
+  PCBs and Electronics
+  <a class="anchor" href="#pcbs-and-electronics">#</a>
+</h2>
+<p>PCB source files are on <a href="https://github.com/Karpova-Lab/nosepoke/tree/master/pcb">GitHub</a></p>
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <p>
+	<a href="back_pcb.png">
+		<img src="back_pcb.png" ></img>
+	</a>
+</p>
+<p style="text-align:center; margin-top:-20px; font-style:italic;">Rear PCB</p>
+<div style="text-align:center;">
+<a href="https://oshpark.com/shared_projects/PgBzF9ZE"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
+</div>
+
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <p>
+	<a href="outer_pcb.png">
+		<img src="outer_pcb.png" ></img>
+	</a>
+</p>
+<p style="text-align:center; margin-top:-20px; font-style:italic;">Perimeter PCB</p>
+<div style="text-align:center;">
+<a href="https://oshpark.com/shared_projects/ehOwH3Wp"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
+</div>
+
+  </div>
+  
+</div>
+
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Reference</th>
+<th>Description</th>
+<th>Value/MPN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>D1</td>
+<td>IR LED</td>
+<td><a href="https://www.digikey.com/products/en?keywords=1080-1357-1-ND">IR26-21C/L110/TR8</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>D2</td>
+<td>Diffused White LED</td>
+<td><a href="https://www.digikey.com/products/en?keywords=1080-1593-1-ND">23-11/T7D-CQ2R2QY/2A</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>J1</td>
+<td>RJ45 Jack</td>
+<td><a href="https://www.digikey.com/products/en?keywords=WM3553CT-ND">0855135013</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Q1</td>
+<td>Phototransistor</td>
+<td><a href="https://www.digikey.com/products/en?keywords=1080-1386-1-ND">PT26-21C/TR8</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>R1</td>
+<td>0603 Resistor</td>
+<td><a href="https://www.digikey.com/products/en?keywords=P330HCT-ND">200Ω</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>R2</td>
+<td>0603 Resistor</td>
+<td><a href="https://www.digikey.com/products/en?keywords=311-82.0HRCT-ND">82Ω</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>R3</td>
+<td>0603 Resistor</td>
+<td><a href="https://www.digikey.com/en/products/detail/yageo/RC0603JR-0710KL/726700">10KΩ</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>R4</td>
+<td>0603 Resistor</td>
+<td><a href="https://www.digikey.com/en/products/detail/yageo/RC0603JR-0720KL/726740">20KΩ</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+  
+  
+
+
+<a  href="ibom.html"   target="_blank" rel="noopener"  class="book-btn">
+  View interactive Bill of Materials
+</a>
+
+<h2 id="hardware">
+  Hardware
+  <a class="anchor" href="#hardware">#</a>
+</h2>
+<table>
+<thead>
+<tr>
+<th>QTY</th>
+<th>Description</th>
+<th>Part Number</th>
+<th>Supplier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1/8&quot; Push-to-connect fitting</td>
+<td><a href="https://www.mcmaster.com/7880t137">7880t137</a></td>
+<td>McMaster-Carr</td>
+</tr>
+<tr>
+<td>2</td>
+<td>5mm long M2.5 x .45 screw</td>
+<td><a href="https://www.mcmaster.com/91290A100/">91290A100</a></td>
+<td>McMaster-Carr</td>
+</tr>
+</tbody>
+</table>
+</article>
+ 
+      <div class="chapter_btns">
+    
+    
+        
+        
+
+        <a class="btn-nav prev" href= https://karpova-lab.github.io/nosepoke/>
+            <i style="font-size: 1rem;">previous</i><br><i class="fas fa-arrow-left"></i> Overview</i>
+        </a>
+    
+    
+    
+    
+        
+        
+
+        <a class="btn-nav next" href= https://karpova-lab.github.io/nosepoke/docs/building/ >
+            <i style="font-size: 1rem;">next</i><br>Building <i class="fas fa-arrow-right"></i></i>
+        </a>
+    
+
+</div>
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        <br>
+These docs are built with <a href="https://gohugo.io/">Hugo</a> . A forked version of <a href="https://github.com/alustig3/hugo-book">Hugo Book</a> is used as the theme.
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#bill-of-materials-and-design-files">Bill of Materials and Design Files</a>
+      <ul>
+        <li><a href="#plastic-nosepoke-body">Plastic Nosepoke Body</a></li>
+        <li><a href="#pcbs-and-electronics">PCBs and Electronics</a></li>
+        <li><a href="#hardware">Hardware</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
