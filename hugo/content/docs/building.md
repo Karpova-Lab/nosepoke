@@ -59,8 +59,8 @@ PCB source files are on [GitHub](https://github.com/Karpova-Lab/nosepoke/tree/ma
 | 1   | Q1        | Phototransistor    | [PT26-21C/TR8](https://www.digikey.com/products/en?keywords=1080-1386-1-ND)                                | 
 | 1   | R1        | 0603 Resistor      | [200Ω](https://www.digikey.com/products/en?keywords=P330HCT-ND)                                            | 
 | 1   | R2        | 0603 Resistor      | [82Ω](https://www.digikey.com/products/en?keywords=311-82.0HRCT-ND)                                        | 
-| 1   | R3        | 0603 Resistor      | [10KΩ](https://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647/?itemSeq=322900504) | 
-| 1   | R4        | 0603 Resistor      | [20KΩ](https://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647/?itemSeq=322900504) | 
+| 1   | R3        | 0603 Resistor      | [10KΩ](https://www.digikey.com/en/products/detail/yageo/RC0603JR-0710KL/726700) | 
+| 1   | R4        | 0603 Resistor      | [20KΩ](https://www.digikey.com/en/products/detail/yageo/RC0603JR-0720KL/726740)                            | 
 
 {{< button href="ibom.html" >}}View interactive Bill of Materials{{< /button >}}
 
