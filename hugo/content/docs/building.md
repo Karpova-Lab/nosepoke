@@ -5,7 +5,7 @@ next_txt: Using
 next_link: using
 ---
 # Building
-<img src="assembly/solid_color.gif" style="width:100%;"></img>
+<img src="solid_color.gif" style="width:100%;"></img>
 
 ## Required Tools
 - 2mm hex key or [screwdriver](https://www.mcmaster.com/57585a53)  
@@ -16,11 +16,11 @@ next_link: using
 
 {{< columns >}}
 
-{{< pic file="assembly/backside_before.jpg" >}}
+{{< pic file="backside_before.jpg" >}}
 
 <--->
 
-{{< pic file="assembly/backside_after.jpg" >}}
+{{< pic file="backside_after.jpg" >}}
 {{< /columns >}}
 
 
@@ -32,13 +32,13 @@ The IR emitter (D1) goes on the left side, the white LED (D2) goes on top and th
 
 {{< /hint >}}
 
-{{< pic file="assembly/perimeter_before.jpg" >}}
+{{< pic file="perimeter_before.jpg" >}}
 
 {{< columns >}}
-{{< pic file="assembly/adding_joint.jpg" >}}
+{{< pic file="adding_joint.jpg" >}}
 <--->
 
-{{< pic file="assembly/final_joints.jpg" >}}
+{{< pic file="final_joints.jpg" >}}
 {{< /columns >}}
 
 
@@ -46,9 +46,9 @@ The IR emitter (D1) goes on the left side, the white LED (D2) goes on top and th
 3. Using a 2mm hex key or screwdriver, screw in the push-to-connect fitting.
 
 {{< columns >}}
-{{< pic file="assembly/pushconnect_before.jpg" >}}
+{{< pic file="pushconnect_before.jpg" >}}
 <--->
-{{< pic file="assembly/pushconnect_after.jpg" >}}
+{{< pic file="pushconnect_after.jpg" >}}
 
 {{< /columns >}}
 
