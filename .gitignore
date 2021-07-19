@@ -3,7 +3,10 @@ Documentation Source/.vscode
 settings.json
 3d CAD/animations
 pcb/render
+pcb/nosepoke-backups
 *.kicad_prl
 pcb/fp-info-cache
 pcb/manufacturing
 *.zip
+hugo/.vscode/ltex.dictionary.en-US.txt
+*.kicad_pcb-bak

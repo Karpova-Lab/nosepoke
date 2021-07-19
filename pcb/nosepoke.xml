@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/lustiga/Dropbox (HHMI)/Code/karpova_lab/other/nosepoke/pcb/nosepoke.kicad_sch</source>
-    <date>Wednesday, March 17, 2021 at 06:44:41 PM</date>
-    <tool>Eeschema (5.99.0-9796-ge6b69ba280)</tool>
+    <source>/Users/lustiga/Dropbox (HHMI)/Code/karpova_lab/pyControl/Hardware Modules/nosepoke/pcb/nosepoke.kicad_sch</source>
+    <date>Wednesday, October 12, 2022 at 09:11:53 PM</date>
+    <tool>Eeschema (6.99.0-3888-g8176100cfc)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev>1.16</rev>
-        <date>2021-03-16</date>
+        <title>Nosepoke</title>
+        <company>Andy Lustig</company>
+        <rev>1.17</rev>
+        <date>2021-06-03</date>
         <source>nosepoke.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -34,7 +34,9 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Description" value="IR LED"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="nosepoke.kicad_sch"/>
+      <property name="Sheetfile" value="File: nosepoke.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e1d2191</tstamps>
     </comp>
@@ -48,35 +50,39 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Description" value="Diffused White LED"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="nosepoke.kicad_sch"/>
+      <property name="Sheetfile" value="File: nosepoke.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e1d3230</tstamps>
     </comp>
     <comp ref="H1">
       <value>MountingHole</value>
       <footprint>asl_footprints:MountingHole_2.7mm_M2.5</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="DNP">1</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="DNP" value="1"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="nosepoke.kicad_sch"/>
+      <property name="Sheetfile" value="File: nosepoke.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e1e606d</tstamps>
     </comp>
     <comp ref="H2">
       <value>MountingHole</value>
       <footprint>asl_footprints:MountingHole_2.7mm_M2.5</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="DNP">1</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="DNP" value="1"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="nosepoke.kicad_sch"/>
+      <property name="Sheetfile" value="File: nosepoke.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e1e63af</tstamps>
     </comp>
@@ -90,7 +96,9 @@
       <libsource lib="asl_symbols" part="RJ45_pyControl" description="RJ connector, 8P8C (8 positions 8 connected)"/>
       <property name="Description" value="RJ45 Jack"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="nosepoke.kicad_sch"/>
+      <property name="Sheetfile" value="File: nosepoke.kicad_sch"/>
+      <property name="ki_description" value="RJ connector, 8P8C (8 positions 8 connected)"/>
+      <property name="ki_keywords" value="8P8C RJ female connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e1cfda0</tstamps>
     </comp>
@@ -104,7 +112,9 @@
       <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
       <property name="Description" value="Phototransistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="nosepoke.kicad_sch"/>
+      <property name="Sheetfile" value="File: nosepoke.kicad_sch"/>
+      <property name="ki_description" value="NPN phototransistor, collector/emitter"/>
+      <property name="ki_keywords" value="phototransistor NPN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e1d0dc1</tstamps>
     </comp>
@@ -112,39 +122,63 @@
       <value>200Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/products/en?keywords=P330HCT-ND</datasheet>
+      <fields>
+        <field name="Description">0603 resistor</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="0603 resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="nosepoke.kicad_sch"/>
+      <property name="Sheetfile" value="File: nosepoke.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e1d3d9d</tstamps>
     </comp>
     <comp ref="R2">
-      <value>10KΩ</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647/?itemSeq=322900504</datasheet>
-      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="nosepoke.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005e1d5091</tstamps>
-    </comp>
-    <comp ref="R3">
       <value>82Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/products/en?keywords=311-82.0HRCT-ND</datasheet>
+      <fields>
+        <field name="Description">0603 resistor</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="0603 resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="nosepoke.kicad_sch"/>
+      <property name="Sheetfile" value="File: nosepoke.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e1d4799</tstamps>
     </comp>
-    <comp ref="R5">
+    <comp ref="R3">
+      <value>10KΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0603JR-0710KL/726700</datasheet>
+      <fields>
+        <field name="Description">0603 resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="0603 resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: nosepoke.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e1d5091</tstamps>
+    </comp>
+    <comp ref="R4">
       <value>20KΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647/?itemSeq=322900504</datasheet>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0603JR-0720KL/726740</datasheet>
+      <fields>
+        <field name="Description">0603 resistor</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="0603 resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="nosepoke.kicad_sch"/>
+      <property name="Sheetfile" value="File: nosepoke.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>da18ccab-6489-4605-a7b0-82a5df91e266</tstamps>
     </comp>
@@ -193,8 +227,8 @@
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Mechanical" part="MountingHole">
@@ -232,13 +266,13 @@
   </libparts>
   <libraries>
     <library logical="Device">
-      <uri>/Library/Application Support/kicad/library/Device.kicad_sym</uri>
+      <uri>/Applications/KiCad_7_nightly/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>/Library/Application Support/kicad/library/Mechanical.kicad_sym</uri>
+      <uri>/Applications/KiCad_7_nightly/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="asl_symbols">
-      <uri>/Users/lustiga/Dropbox (HHMI)/Code/karpova_lab/other/nosepoke/pcb/libs/asl_symbols.lib</uri>
+      <uri>/Users/lustiga/Dropbox (HHMI)/Code/karpova_lab/pyControl/Hardware Modules/nosepoke/pcb/libs/asl_symbols.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -251,38 +285,38 @@
     <net code="2" name="/DIO_A">
       <node ref="J1" pin="1" pinfunction="DIO-A" pintype="passive"/>
       <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
     <net code="3" name="GND">
       <node ref="J1" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="4" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J1" pin="7" pinfunction="POW-B" pintype="passive"/>
-    </net>
-    <net code="5" name="Net-(D1-Pad2)">
+    <net code="4" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(D2-Pad1)">
+    <net code="5" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="POW-B" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-K)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="3" pinfunction="POW-A" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
+    <net code="8" name="unconnected-(J1-12V)">
+      <node ref="J1" pin="8" pinfunction="12V" pintype="passive+no_connect"/>
     </net>
-    <net code="8" name="unconnected-(J1-Pad4)">
+    <net code="9" name="unconnected-(J1-DIO-B)">
       <node ref="J1" pin="4" pinfunction="DIO-B" pintype="passive+no_connect"/>
     </net>
-    <net code="9" name="unconnected-(J1-Pad5)">
+    <net code="10" name="unconnected-(J1-SPECIAL)">
       <node ref="J1" pin="5" pinfunction="SPECIAL" pintype="passive+no_connect"/>
-    </net>
-    <net code="10" name="unconnected-(J1-Pad8)">
-      <node ref="J1" pin="8" pinfunction="12V" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>

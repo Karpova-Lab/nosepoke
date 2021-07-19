@@ -4,7 +4,6 @@ next_link: designs
 ---
 # Overview
 
-
 <p>
     <a href="https://a360.co/349jTLC ">
         <img src="rendered_2view.png" style="width:90%;margin:auto;display:block;">
