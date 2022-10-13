@@ -12,11 +12,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://karpova-lab.github.io/nosepoke/docs/designs/</guid>
-      <description>Bill of Materials and Design Files #     Plastic Nosepoke Body #           nosepoke.stl   nosepoke.step   nosepoke_drawing.pdf 
-PCBs and Electronics #  PCB source files are on GitHub
-   Rear PCB
-      Perimeter PCB
-       Qty Reference Description Value/MPN     1 D1 IR LED IR26-21C/L110/TR8   1 D2 Diffused White LED 23-11/T7D-CQ2R2QY/2A   1 J1 RJ45 Jack 0855135013   1 Q1 Phototransistor PT26-21C/TR8   1 R1 0603 Resistor 200Ω   1 R2 0603 Resistor 82Ω   1 R3 0603 Resistor 10KΩ   1 R4 0603 Resistor 20KΩ    View interactive Bill of Materials  Hardware #     QTY Description Part Number Supplier     1 1/8&amp;quot; Push-to-connect fitting 7880t137 McMaster-Carr   2 5mm long M2.</description>
+      <description>Bill of Materials and Design Files # Plastic Nosepoke Body # nosepoke.stl nosepoke.step nosepoke_drawing.pdf PCBs and Electronics # PCB source files are on GitHub
+Rear PCB
+Perimeter PCB
+Qty Reference Description Value/MPN 1 D1 IR LED IR26-21C/L110/TR8 1 D2 Diffused White LED 23-11/T7D-CQ2R2QY/2A 1 J1 RJ45 Jack 0855135013 1 Q1 Phototransistor PT26-21C/TR8 1 R1 0603 Resistor 200Ω 1 R2 0603 Resistor 82Ω 1 R3 0603 Resistor 10KΩ 1 R4 0603 Resistor 20KΩ View interactive Bill of Materials Hardware # QTY Description Part Number Supplier 1 1/8&amp;quot; Push-to-connect fitting 7880t137 McMaster-Carr 2 5mm long M2.</description>
     </item>
     
     <item>
@@ -25,8 +24,7 @@ PCBs and Electronics #  PCB source files are on GitHub
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://karpova-lab.github.io/nosepoke/docs/building/</guid>
-      <description>Building #  
-Required Tools #   2mm hex key or screwdriver Soldering iron  Instructions #   Secure backside PCB to the back of the nosepoke using two M2.5 screws.         Place the perimeter PCBs into the channels of the nosepoke and solder the joints of the PCBs to create both electrical and mechanical connections.   Note The IR emitter (D1) goes on the left side, the white LED (D2) goes on top and the phototransistor (Q1) goes on the right side.</description>
+      <description>Building # Required Tools # 2mm hex key or screwdriver Soldering iron Instructions # Secure backside PCB to the back of the nosepoke using two M2.5 screws. Place the perimeter PCBs into the channels of the nosepoke and solder the joints of the PCBs to create both electrical and mechanical connections. Note # The IR emitter (D1) goes on the left side, the white LED (D2) goes on top and the phototransistor (Q1) goes on the right side.</description>
     </item>
     
     <item>
@@ -35,9 +33,9 @@ Required Tools #   2mm hex key or screwdriver Soldering iron  Instructions #   S
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://karpova-lab.github.io/nosepoke/docs/using/</guid>
-      <description>Using #  pyControl #  This nosepoke works with the pyControl behavior framework. Specifically, this means that the RJ45 pinout is compatible with pyControl. Using an ethernet cable, you can connect the nosepoke to an original breakout board or a D-series breakout board.
+      <description>Using # pyControl # This nosepoke works with the pyControl behavior framework. Specifically, this means that the RJ45 pinout is compatible with pyControl. Using an ethernet cable, you can connect the nosepoke to an original breakout board or a D-series breakout board.
 The latest software release can be downloaded here. Additional pyControl hardware can be purchased from the Open Ephys Store.
-Example task #   Note For the example to work,  _nosepoke.</description>
+Example task # Note # For the example to work, nosepoke.</description>
     </item>
     
   </channel>
