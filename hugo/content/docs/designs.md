@@ -39,7 +39,7 @@ PCB source files are on [GitHub](https://github.com/Karpova-Lab/nosepoke/tree/ma
 {{< caption text="Rear PCB" >}}
 
 <div style="text-align:center;">
-<a href="https://oshpark.com/shared_projects/07c1qRaL"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
+<a href="https://oshpark.com/shared_projects/07c1qRaL">Order from OSH Park </a>
 </div>
 <--->
 
@@ -49,7 +49,7 @@ PCB source files are on [GitHub](https://github.com/Karpova-Lab/nosepoke/tree/ma
 {{< caption text="Perimeter PCB" >}}
 
 <div style="text-align:center;">
-<a href="https://oshpark.com/shared_projects/ehOwH3Wp"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
+<a href="https://oshpark.com/shared_projects/ehOwH3Wp">Order from OSH Park </a>
 </div>
 
 {{< /columns >}}
