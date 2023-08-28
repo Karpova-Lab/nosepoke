@@ -35,7 +35,7 @@ Order from OSH Park Qty Reference Description Value/MPN 1 D1 IR LED IR26-21C/L11
       <guid>https://karpova-lab.github.io/nosepoke/docs/using/</guid>
       <description>Using # pyControl # This nosepoke works with the pyControl behavior framework. Specifically, this means that the RJ45 pinout is compatible with pyControl. Using an ethernet cable, you can connect the nosepoke to an original breakout board or a D-series breakout board.
 The latest software release can be downloaded here. Additional pyControl hardware can be purchased from the Open Ephys Store.
-Example task # Note # For the example to work, nosepoke.</description>
+Example task # Note # For the example to work, this nosepoke.</description>
     </item>
     
   </channel>
